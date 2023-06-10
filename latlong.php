@@ -1,7 +1,7 @@
 <?php 
 //Pour afficher les pokemons sur la carte
 
-$db_connection = pg_connect("host=localhost port=5432 dbname=pokemon_db user=postgres password=insaf") ;
+$db_connection = pg_connect("host=localhost port=5432 dbname=pokemon_db user=postgres password=####") ;
 if(isset($_GET["input"])){
     $pokemon=$_GET["input"];
     $query='SELECT lat,long,pokemon FROM pokemon_data WHERE pokemon like $1';
