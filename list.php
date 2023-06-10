@@ -1,7 +1,7 @@
 <?php 
 //Pour générer la liste déroulante
 
-$db_connection = pg_connect("host=localhost port=5432 dbname=pokemon_db user=postgres password=insaf") ;
+$db_connection = pg_connect("host=localhost port=5432 dbname=pokemon_db user=postgres password=####") ;
 if(isset($_GET["name"])){
     $nom=$_GET["name"];
     $name=$nom."%";
